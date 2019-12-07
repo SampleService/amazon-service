@@ -10,7 +10,7 @@ import org.joda.time.DateTime;
  */
 public class MBaseUtils {
 
-    public static String generateStringInKBSize(int kbSize, MResponse response, long prevInterval) {
+    public static String generateStringInKBSize(int kbSize, MResponse response, int prevInterval) {
         DateTime before = DateTime.now();
         // 1 kb is 1024 characters
         StringBuffer stringBuffer = new StringBuffer();
